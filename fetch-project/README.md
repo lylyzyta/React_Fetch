@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+* [1. Definición del producto ](#1-definición-del-producto)
+* [2. Diseño de la Interfaz de Usuario](#2-Diseño-de-la-Interfaz-de-Usuario)
+* [3. Listado de las tecnologías o frameworks utilizados](#3-Listado-de-las-tecnologías-o-frameworks-utilizados)
+* [4. Instrucciones detalladas de cómo instalar las dependencias y ejecutar el proyecto)](#4-Instrucciones-detalladas-de-cómo-instalar-las-dependencias-y-ejecutar-el-proyecto)
+* [5. URL del repositorio git (Github, Gitlab, Bitbucket))](#5-URL-del-repositorio-git)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Definición del producto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Realizar una página web para una tienda en la línea.
 
-### `npm test`
+En la página se mostrará un listado de productos disponibles en la tienda.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Características de aplicación:
++ Diseño single page.
++ Método de paginación a elección del desarrollador (Infinite scroll deseable).
++ Método de filtrado dinámico, al tener un grupo de caracteres o palabra mayor a 3 caracteres la vista de productos debe mostrar los resultados.
++ Al seleccionar un producto de la vista de producto sus características deben mostrarse sobre el componente correspondiente al detalle del producto.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Diseño de la Interfaz de Usuario
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prototipo de baja fidelidad
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![p_bajafidelidad1](src/image/Prototipobajafidelidad.JPG)
 
-### `npm run eject`
+### Prototipo de alta fidelidad
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![p_altafidelidad1](src/image/Prototipoaltafidelidad1.JPG)
+![p_altafidelidad2](src/image/Prototipoaltafidelidad2.JPG)
+![p_altafidelidad2](src/image/Prototipoaltafidelidad3.JPG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 3. Listado de las tecnologías o frameworks utilizados
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Las tecnologías utilizadas en el presente proyecto son las siguientes:
 
-## Learn More
+1. HTML.
+2. CSS.
+3. JavaScript.
+4. React JS.
+5. React-scroll-up-button
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### 4. Instrucciones detalladas de cómo instalar las dependencias y ejecutar el proyecto
 
-### Code Splitting
++ Crear una repositorio local.
++ Dar fork al repositorio [Interfaz](https://github.com/lylyzyta/P_works)
++ Crear un carpeta local.
++ Dar clone al proyecto en git.
++ Abrir carpeta local con visual studio code.
++ En terminal ingresar git clone https://github.com/lylyzyta/P_works.git
++ npm start.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### 5. URL del repositorio git (Github, Gitlab, Bitbucket)
+[Interfaz](https://github.com/lylyzyta/P_works)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

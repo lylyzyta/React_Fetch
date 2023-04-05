@@ -34,7 +34,7 @@ width: 20vw;
 height:35vh;
 background-color: #fefefe;
 border-radius: 25px;
-border: solid .04em rgb(233, 228, 228);
+border: solid 0.2em #80A649;
 padding: 0 2em 1em ;
 box-shadow: 2px 2px 10px 1px #797878;
 justify-content: center;
@@ -45,7 +45,7 @@ justify-content: center;
 }
 
 .productsImg{
-    margin-top: 5px;
+    margin-top: 25px;
     width: 35%;
     margin-left: 85px;
     background-color: #fefefe;
@@ -72,7 +72,7 @@ justify-content: center;
     margin-top: -15px;
 }
 .btnDetail {
-    background-color: #f0ecec;
+    background-color: #80A649;
     width: 12vw;
      border: solid transparent;
      margin-left: 50px;

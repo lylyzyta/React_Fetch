@@ -13,7 +13,7 @@ function ProductList() {
   
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    getProducts("https://gnk.onm.mybluehost.me/products_api/").then((json) =>
+    getProducts("https://642ce623bf8cbecdb4f9470f.mockapi.io/Menu").then((json) =>
       setProducts(json)
     );
   }, []);
